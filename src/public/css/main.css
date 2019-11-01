@@ -1,0 +1,38 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  background: #3a6186;
+  background: -webkit-linear-gradient(to bottom, #89253e, #3a6186);
+  background: linear-gradient(to bottom, #89253e, #3a6186);
+  font-size: 17px;
+}
+.main {
+  height: calc(100vh - 69px - 260px);
+  border-left: 4px solid #343a40;
+  border-right: 4px solid #343a40;
+}
+
+.main .textarea {
+  min-height: 150px;
+  max-height: 300px;
+}
+
+footer {
+  background: #f2f2f2;
+}
+
+@media screen and (max-width: 754px) {
+  .main {
+    height: calc(100vh - 69px - 412px);
+  }
+}
+@media screen and (max-width: 408px) {
+  .main {
+    height: calc(100vh - 69px - 535px);
+  }
+}
+@media screen and (max-width: 342px) {
+  .main {
+    height: calc(100vh - 69px - 585px);
+  }
+}
