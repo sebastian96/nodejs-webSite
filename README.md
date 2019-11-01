@@ -1,6 +1,6 @@
 # First webSite NodeJs
 
-WebSite using Nodejs, y Express.
+WebSite using Nodejs and Express.
 
 # Use
 
